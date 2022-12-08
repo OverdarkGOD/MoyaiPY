@@ -1,4 +1,4 @@
-# MoyaiPY
+# MoyaiPY - Version 0.3
 Moyai is a Discord Bot made in Python. The bot interacts with the Discord API by interacting through a python module, API wrapper, called Discord.py. This bot contains more than 40 commands and all are executable through Discord's integration. Their integration allows programmers to synchronize their commands to the Discord API. This allows for easier accessibility and quick execution. The following below contains the commands and their category classifications:
 
 ## Support Commands

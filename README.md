@@ -1,18 +1,23 @@
 # MoyaiPY
 Moyai is a Discord Bot made in Python. The bot interacts with the Discord API by interacting through a python module, API wrapper, called Discord.py. This bot contains more than 40 commands and all are executable through Discord's integration. Their integration allows programmers to synchronize their commands to the Discord API. This allows for easier accessibility and quick execution. The following below contains the commands and their category classifications:
 
-1. Fun Commands 
+## Support Commands
+   - help: shows the Help Manager. The Help Manager shows all of the commands and their respective categories. Also, has a ticket system and a reporting function.
+      Also, there are two links and a notice function. The two links either take you to my GitHub and the official website. The Notice just gives information about       various things.
+   - assistant: Allows the user to create a thread for the ticket system and reporting system.
+
+## Fun Commands 
    - pong: outputs the bot client latency
    - avatar: enlarges the pinged user's profile picture
    - ping: ping an IP/DNS
    - google: google search within discord
    
-2. Info Commands
+## Info Commands
    - info: shows information about the server and the bot
    - status: shows information about the bot
    - whois: shows information about an user
  
-3. Mod Commands
+## Mod Commands
    - purge: allows users with manage permissions to delete previous messages
    - ban: allows users with ban permissions to ban users within a guild
    - unabn: allows users with ban permissions to unban users within a guild
@@ -21,7 +26,7 @@ Moyai is a Discord Bot made in Python. The bot interacts with the Discord API by
    - unlock: allows users with manage channels to unlock users ability to text, send attachments, and react within a channel
    - clone: allows users with manage channels to automatically delete and recreate a channel
  
-4. Music Commands
+## Music Commands
    - join: makes the bot join the voice channel you are currently in
    - summon: makes the bot join a voice channel you wish
    - leave: makes the bot leave the voice channel
@@ -37,7 +42,7 @@ Moyai is a Discord Bot made in Python. The bot interacts with the Discord API by
    - loop: loop the currently playing song. Invoke the command again to unloop
    - play: enter the URL of the song from YouTube and the bot wiull join the voice channel you're in and the bot will automatically start playing the song
    
-5.SQL Commands
+## SQL Commands
   - table: allows users to create a database table
   - insert: allows users to insert data by typing in the following parameters
   - delete: allows users to delete a row within a table

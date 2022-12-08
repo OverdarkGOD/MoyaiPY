@@ -44,4 +44,8 @@ Moyai is a Discord Bot made in Python. The bot interacts with the Discord API by
   - fetch: allows users to fetch all information within a table
   - verify: allows users to verify if the table or the SQL module is working correctly
   
+## Known Issues
+There are some commands that are not working properly. There are some commands that do work but will also output an error that the interaction failed. All are easy to fix. Known issues will be resolved by the next update.
+  
+## Test Commands
 There are other miscellaneous commands that are always being tested. If you are in the support server, you know that there are two Discord bots made in python. One of them being the main bot and the other being a testing bot. The testing bot holds more commands than the main bot. Join our server to get a hands on look at what commands we are creating!

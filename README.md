@@ -1,4 +1,4 @@
-# MoyaiPY - Version 0.3
+# MoyaiPY - Version 0.3.1
 Moyai is a Discord Bot made in Python. The bot interacts with the Discord API by interacting through a python module, API wrapper, called Discord.py. This bot contains more than 40 commands and all are executable through Discord's integration. Their integration allows programmers to synchronize their commands to the Discord API. This allows for easier accessibility and quick execution. The following below contains the commands and their category classifications:
 
 ## Support Commands
@@ -25,6 +25,7 @@ Moyai is a Discord Bot made in Python. The bot interacts with the Discord API by
    - lock: allows users with manage channels to lock users from texting, sending attachments, and reactions within a channel
    - unlock: allows users with manage channels to unlock users ability to text, send attachments, and react within a channel
    - clone: allows users with manage channels to automatically delete and recreate a channel
+   - user_verify: users are required to verify their identity in order to access the server.
  
 ## Music Commands
    - join: makes the bot join the voice channel you are currently in

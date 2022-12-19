@@ -1,4 +1,4 @@
-# MoyaiPY - Version 0.5
+# MoyaiPY - Version 0.6
 Moyai is a Discord Bot made in Python. The bot interacts with the Discord API, interacting through a python module, API wrapper, called Discord.py. This bot contains more than 40 commands and all are executable through Discord's integration. Their integration allows programmers to synchronize their commands to the Discord client. This allows for easier accessibility and quick execution. Below will show an example of the correct syntax of the commands and the parameters of those commands. Below will also show the definitions of these commands and their parameters in their respective categories. 
 
 ## Example
@@ -43,6 +43,8 @@ The main file also logs every action that happens to the bot. In the terminal, t
       - member: define the user you would like information from
  
 ## Mod Commands
+   - captcha: enforces users who join a guild to verify that they are human and not a bot
+
    - purge: allows users with manage permissions to delete previous messages - Command Works
       - amount: define the amount of messages you would like to delete
    
@@ -52,7 +54,7 @@ The main file also logs every action that happens to the bot. In the terminal, t
       - member: define the user you would like to ban from your guild
       - reason: define a reason for the ban (optional)
       
-   - unabn: allows users with ban permissions to unban users within a guild - Command Works 
+   - unban: allows users with ban permissions to unban users within a guild - Command Works 
       - member: define the user you would like to unban from your guild
    
    - kick: allows users with kick permissions to kick users within a guild - Command Works
@@ -67,8 +69,6 @@ The main file also logs every action that happens to the bot. In the terminal, t
       
    - clone: allows users with manage channels to automatically delete and recreate a channel - Command Works
       - channel: choose a channel to clone
-      
-   - user_verify: users are required to verify their identity in order to access the server - Command Works
    
    - dm: send a message to a user or yourself - Command Works
       - header: the main tile of your message
@@ -143,10 +143,10 @@ The main file also logs every action that happens to the bot. In the terminal, t
     - table: enter the table you're verifying
     
 ## Fixed Issues
-The "ping" command has been fixed and works properly again. 
+Redone the "user_verify" function by implementing the "captcha" function. Removed code in the main file that may have caused unknown problems. The code in the main file had two variables operating two different but almost identical values. The code has been rewritten and been moved to the config.py file.
   
 ## Known Issues
-All of the commands are executing correctly but not interacting correctly. If certain commands are executed, the command will output correctly but will fail to interact with the application. Issue is an easy fix. 
+SQL commands are not asynchronous. Commands are functional, but will delay the bot from use until commands are executed.
   
 ## Test Commands
 There are other miscellaneous commands that are always being tested. If you are in the support server, you know that there are two Discord bots made in python. One of them being the main bot and the other being a testing bot. The testing bot holds more commands than the main bot. Join our server to get a hands on look at what commands we are creating! https://discord.gg/vgKmCDq6r6

@@ -1,9 +1,5 @@
 # MoyaiPY - Version 0.6
-Moyai is a Discord Bot made in Python. The bot interacts with the Discord API, interacting through a python module, API wrapper, called Discord.py. This bot contains more than 40 commands and all are executable through Discord's integration. Their integration allows programmers to synchronize their commands to the Discord client. This allows for easier accessibility and quick execution. Below will show an example of the correct syntax of the commands and the parameters of those commands. Below will also show the definitions of these commands and their parameters in their respective categories. 
-
-## Example
-- COMMAND_IS_HERE: THE DEFINITION OF THE COMMAND
-   - PARAMETER_IS_HERE: THE DEFINITION OF THE PARAMETER
+Moyai is a Discord Bot made in Python. The bot interacts with Discord's API called Discord.py. This bot contains more than 40 commands and all are executable through Discord's integration. Their integration allows programmers to synchronize their slash commands to the Discord client. This allows for easier accessibility and quick execution. Below will show an example of the correct syntax of the commands and the parameters of those commands. Below will also show the definitions of these commands and their parameters in their respective categories.
 
 ## Main File
 The main file does not have commands to execute. It provides communication to the Discord client. It holds the requiste data in order for the bot to communicate properly. Upon running the file, the bot will check it's directory to see if there are other files that need to loaded with the main file. Once the bot loads the other files, the bot will print in the terminal that it is online. 
@@ -11,6 +7,10 @@ The main file does not have commands to execute. It provides communication to th
 The main file does listen for members that join a guild. When a member joins a guild, the bot will respond to the user by sending them a message in their direct messages. 
 
 The main file also logs every action that happens to the bot. In the terminal, the bot will print errors if something goes wrong.
+
+## Example
+- COMMAND_IS_HERE: THE DEFINITION OF THE COMMAND
+   - PARAMETER_IS_HERE: THE DEFINITION OF THE PARAMETER
 
 
 ## Support Commands
